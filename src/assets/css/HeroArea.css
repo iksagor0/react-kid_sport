@@ -1,0 +1,48 @@
+#HeroArea {
+    position: relative;
+}
+#HeroArea .txtArea {
+    color: var(--yellowTxt);
+    margin: 7rem;
+    z-index: 1;
+    position: absolute;
+}
+#HeroArea .txtArea h1 {
+    font-family: "Condiment", cursive;
+    font-size: 7rem;
+    line-height: 0.8;
+}
+#HeroArea .txtArea p {
+    font-size: 2.5rem;
+    line-height: 0;
+    font-weight: normal;
+}
+
+#HeroArea .imgArea img {
+    width: 90%;
+    position: relative;
+    left: 1rem;
+    top: 3rem;
+    animation: scale 0.5s linear 2s infinite alternate;
+}
+
+/*==============================
+       Responsive
+ ==============================*/
+@media only screen and (max-width: 800px) {
+    #HeroArea {
+        padding: 2rem 0;
+    }
+    #HeroArea .txtArea {
+        margin: 5rem;
+        position: relative;
+    }
+    #HeroArea .txtArea p {
+        font-size: 2rem;
+    }
+    #HeroArea .imgArea img {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}

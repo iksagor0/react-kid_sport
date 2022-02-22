@@ -1,0 +1,55 @@
+#ready {
+    color: var(--purpleTxt);
+}
+#ready .wrapper {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+#ready .txtArea {
+    max-width: 30rem;
+    position: absolute;
+    left: 60%;
+    top: 35rem;
+    z-index: 1;
+}
+#ready .txtArea h2 {
+    font-size: 5rem;
+}
+#ready img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55%;
+    animation: left 1s linear 2s infinite alternate;
+}
+
+/*==============================
+       Responsive
+ ==============================*/
+@media only screen and (max-width: 1000px) {
+    #ready .txtArea {
+        left: 60%;
+        top: 20rem;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #ready .txtArea {
+        position: relative;
+        margin: auto;
+        left: 0;
+        top: 15rem;
+        margin-top: 100%;
+    }
+    #ready img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #ready .txtArea {
+        top: 10rem;
+    }
+}

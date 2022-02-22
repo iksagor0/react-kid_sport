@@ -1,0 +1,113 @@
+#weAre {
+    margin-top: 100%;
+}
+#weAre .wrapper {
+    width: 100%;
+    position: relative;
+}
+#weAre .txtArea {
+    color: var(--greenTxt);
+    max-width: 32rem;
+    position: relative;
+    top: 10rem;
+}
+#weAre .txtArea h2 {
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+}
+#weAre .myBtn {
+    background: var(--btnBg);
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 50px;
+    padding: 1rem 5rem;
+    margin: 3rem 0 0;
+    cursor: pointer;
+    animation: scale 1s linear 2s infinite alternate;
+}
+#weAre .myBtn:active {
+    transform: scale(0.9);
+}
+
+#weAre .imgArea {
+    width: 100%;
+    position: relative;
+    top: -20rem;
+}
+#weAre .imgArea img {
+    width: 100%;
+    position: absolute;
+    right: -5%;
+    top: 0;
+}
+
+/*==============================
+       Responsive
+ ==============================*/
+@media only screen and (max-width: 1800px) {
+    #weAre {
+        margin-top: 130%;
+    }
+}
+@media only screen and (max-width: 1650px) {
+    #weAre {
+        margin-top: 120%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    #weAre {
+        margin-top: 110%;
+    }
+}
+@media only screen and (max-width: 1320px) {
+    #weAre {
+        margin-top: 95%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    #weAre {
+        margin-top: 80%;
+    }
+    #weAre .imgArea img {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #weAre .imgArea img {
+        width: 90%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #weAre .txtArea {
+        top: 135rem;
+        margin: auto;
+    }
+    #weAre .imgArea {
+        top: 50rem;
+    }
+    #weAre .imgArea img {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #weAre .txtArea {
+        top: 110rem;
+    }
+    #weAre .imgArea {
+        top: 40rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    #weAre .txtArea {
+        top: 92rem;
+    }
+    #weAre .imgArea {
+        top: 35rem;
+    }
+}

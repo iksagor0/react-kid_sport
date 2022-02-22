@@ -1,0 +1,22 @@
+======= Fonts =======
+1. PeachyKeenJF - regular, bold
+section header & text,
+
+2. JosefinSans
+nav, button, footer
+
+font-family: 'Condiment', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
+
+
+======= Color =======
+1.  Nav Bg = #e4242e
+2.  Button Bg = #ff6d00
+
+3. White Text = #eaeaea (Nav)
+                #efefef
+4. Yellow Text = #ffd600
+5. Purple Text = #46084e
+6. Green Text = #51bd1f
+7. Blue Text = #3752a5

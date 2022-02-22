@@ -1,0 +1,106 @@
+#infoGrid {
+    margin-top: 200%;
+}
+#infoGrid .grid-wrapper {
+    width: 100%;
+    padding: 5rem;
+}
+#infoGrid .grid {
+    margin: 5rem 0;
+    display: grid;
+    place-items: center;
+}
+#infoGrid .img-grid {
+    animation: scale 0.7s linear 2s infinite alternate;
+}
+
+#infoGrid .grid img {
+    max-width: 12rem;
+    width: 50%;
+}
+#infoGrid .rocket img {
+    transform: rotate(-30deg);
+}
+
+#infoGrid .txt-grid {
+    color: var(--blueTxt);
+}
+#infoGrid .txt-grid h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+#infoGrid .txt-grid p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+/*==============================
+       Responsive
+ ==============================*/
+@media only screen and (max-width: 1400px) {
+    #infoGrid {
+        margin-top: 180%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #infoGrid {
+        margin-top: 160%;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    #infoGrid {
+        margin-top: 150%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #infoGrid {
+        margin-top: 140%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #infoGrid {
+        margin-top: 200%;
+    }
+}
+@media only screen and (max-width: 730px) {
+    #infoGrid {
+        margin-top: 220%;
+    }
+}
+@media only screen and (max-width: 660px) {
+    #infoGrid {
+        margin-top: 250%;
+    }
+}
+@media only screen and (max-width: 660px) {
+    #infoGrid .grid-wrapper {
+        padding: 5rem 0;
+        /* padding: 5rem 1rem; */
+    }
+}
+@media only screen and (max-width: 550px) {
+    #infoGrid {
+        margin-top: 270%;
+    }
+}
+@media only screen and (max-width: 460px) {
+    #infoGrid .grid-wrapper {
+        padding: 5rem 0;
+    }
+    #infoGrid .grid img {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 415px) {
+    #infoGrid {
+        margin-top: 300%;
+    }
+    #infoGrid .txt-grid h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    #infoGrid .txt-grid p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
